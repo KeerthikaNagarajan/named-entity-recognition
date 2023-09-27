@@ -1,4 +1,4 @@
-<img width="217" alt="image" src="https://github.com/KeerthikaNagarajan/named-entity-recognition/assets/93427089/563d076c-dab6-4e8b-8f18-06f403442db9"># Named Entity Recognition
+# Ex-6: Named Entity Recognition
 
 ## AIM
 
