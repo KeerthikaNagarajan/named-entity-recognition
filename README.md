@@ -7,8 +7,8 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 ## Problem Statement and Dataset
 
 ## Neural Network Model
+![WhatsApp Image 2023-10-05 at 13 10 32_82b2f38d](https://github.com/KeerthikaNagarajan/named-entity-recognition/assets/93427089/7428ee3e-065f-41e6-9af4-9dbaa0964630)
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 
