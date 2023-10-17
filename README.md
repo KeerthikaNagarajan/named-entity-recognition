@@ -73,7 +73,7 @@ X1 = [[word2idx[w[0]] for w in s] for s in sentences]
 type(X1[0])
 X1[0]
 max_len = 50
-
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
 X_train[0]
 y_train[0]
 
