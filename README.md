@@ -73,20 +73,7 @@ X1 = [[word2idx[w[0]] for w in s] for s in sentences]
 type(X1[0])
 X1[0]
 max_len = 50
-nums = [[1], [2, 3], [4, 5, 6]]
-sequence.pad_sequences(nums)
-nums = [[1], [2, 3], [4, 5, 6]]
-sequence.pad_sequences(nums,maxlen=2)
-X = sequence.pad_sequences(maxlen=max_len,
-                  sequences=X1, padding="post",
-                  value=num_words-1)
-X[0]
-y1 = [[tag2idx[w[2]] for w in s] for s in sentences]
-y = sequence.pad_sequences(maxlen=max_len,
-                  sequences=y1,
-                  padding="post",
-                  value=tag2idx["O"])
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+
 X_train[0]
 y_train[0]
 
